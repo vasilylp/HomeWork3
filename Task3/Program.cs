@@ -8,7 +8,7 @@
 System.Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int x = 1;
-
+System.Console.Write($"{n} -> ");
 while(x < n && x > 0)
 {
     
